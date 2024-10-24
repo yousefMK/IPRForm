@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+  background-color: rgba(47, 130, 196, 0.1);
+  width: 50%;
+  border-radius: 6px;
+  padding: 25px;
+  margin: 10px auto;
+}
+.submit-btn {
+  width: 100%;
+  margin: 10px auto;
+  margin-top: 20px;
+  background-color: #2F82C4;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .canvas-container {
+    width: 80%;
+    padding: 20px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .canvas-container {
+    width: 90%;
+    padding: 15px;
+  }
+}

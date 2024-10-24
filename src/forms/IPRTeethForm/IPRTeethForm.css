@@ -1,0 +1,9 @@
+/* Styles: IPR Teeth Form */
+
+.canvas-container {
+  align-items: center;
+  width: 50%;
+  border-radius: 6px;
+  padding: 25px;
+  margin: 10px auto;
+}
