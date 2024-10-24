@@ -26,19 +26,3 @@
   border: none;
   cursor: pointer;
 }
-
-/* Media query for tablets */
-@media (max-width: 768px) {
-  .canvas-container {
-    width: 80%;
-    padding: 20px;
-  }
-}
-
-/* Media query for mobile devices */
-@media (max-width: 480px) {
-  .canvas-container {
-    width: 90%;
-    padding: 15px;
-  }
-}
